@@ -1,0 +1,25 @@
+{
+  "name": "luucamay.github.io",
+  "version": "1.0.0",
+  "description": "Starting the creation of my personal website :)",
+  "main": "src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luucamay/luucamay.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luucamay/luucamay.github.io/issues"
+  },
+  "homepage": "https://github.com/luucamay/luucamay.github.io#readme",
+  "scripts": {
+    "start": "serve ./src",
+    "deploy": "gh-pages -d src"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "serve": "^13.0.2"
+  }
+}
