@@ -63,6 +63,15 @@ section {
   background-color: blueviolet;
 }
 
+.carousel {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  overflow-x: scroll;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
 .talk-card {
   display: flex;
   flex-direction: column;
@@ -70,6 +79,7 @@ section {
   width: 300px;
   background-color: rgba(1, 0, 2, 0.548);
   padding: 12px 0;
+  margin-right: 12px;
 }
 
 .talk-card > img {
